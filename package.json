@@ -1,0 +1,33 @@
+{
+  "name": "blog-api-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dateformat": "^3.0.2",
+    "lodash": "^4.17.4",
+    "npm-watch": "^0.3.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-bootstrap-xeditable": "^0.2.10",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-implicit-oauth2": "^1.2.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  }
+}
