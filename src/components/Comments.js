@@ -41,7 +41,8 @@ class Comments extends Component {
     }
 
     deleteComment(comment) {
-        axios.delete(`//blogapi.app/api/posts/${this.props.match.params.postId}/comments/${comment.id}`, comment, {
+        console.log('COMMENT:' + comment);
+        axios.delete(`//blogapi.app/api/posts/${this.props.match.params.postId}/comments/${comment.id}`, {
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('token'),
                 'Content-Type': 'application/json'

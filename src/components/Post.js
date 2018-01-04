@@ -58,9 +58,6 @@ class Post extends Component {
     }
 
     deletePost() {
-        // delete comments first
-        
-
         axios.delete(`//blogapi.app/api/posts/${this.props.match.params.postId}`, {
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('token'),
